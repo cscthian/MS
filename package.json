@@ -1,0 +1,27 @@
+{
+  "name": "MS",
+  "version": "1.0.0",
+  "description": "Heraamienta basica para creacion de moukup",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dgafz/MS.git"
+  },
+  "author": "thian",
+  "license": "neunapp",
+  "private": true,
+  "dependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp-autoprefixer": "^3.1.0"
+  }
+}
