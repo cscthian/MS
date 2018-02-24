@@ -1,14 +1,11 @@
 //archivo de confguracion scss
 
 // tipo de letra
-$font-title: 'Roboto Slab', serif;
-$font-subtitule: 'Roboto', sans-serif;
-$font-text: 'Roboto Mono', monospace;
+$ms-ff-1: 'Roboto Slab', serif;
+$ms-ff-2: 'Roboto', sans-serif;
+$ms-ff-3: 'Roboto Mono', monospace;
 
 //funciones
-@function color($color) {
-  @return map-get($colors,$color);
-}
 
 //funcion para devover imgen
 @function img($img) {

@@ -1,14 +1,12 @@
 # MS
-styles makeup 
+styles makeup
 
 #installation
 
-1 - cd uikit
+1 - cd ms
 
-2 - (dentro de uikit) npm install
+2 - (dentro de ms) npm install
 
-3 - (dentro de uikit) npm run compile
+3 - (dentro de ms) foundation watch
 
-4 - (en el direcotrio raiz) npm install 
-
-5 - gulp
+5 - (dentro de ms) gulp
