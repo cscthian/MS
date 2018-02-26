@@ -1,0 +1,14 @@
+.ms-in-1 {
+  position: relative;
+  &__txt {
+    //background: grey;
+    border-radius: 15px;
+    padding-left: 2.5em;
+  }
+  &__icon {
+    position: absolute;
+    top: 35px;
+    left: 15px;
+    color:grey;
+  }
+}

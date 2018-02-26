@@ -1,0 +1,15 @@
+.ms-bt-bt2 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  &__btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+  }
+}

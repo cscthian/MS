@@ -1,0 +1,12 @@
+.ms-form1 {
+  box-shadow: 5px 2px 66px 0px rgba(219,219,219,1);
+  padding: 1em;
+  @include desde(640px){
+    padding: {
+      top: 1em;
+      bottom: 1em;
+      left: 2em;
+      right: 2em;
+    };
+  };
+}

@@ -50,3 +50,8 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+// configuracion extra
+.cell {
+  margin-bottom: 5px;
+}
