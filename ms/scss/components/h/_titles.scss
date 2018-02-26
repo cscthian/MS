@@ -11,3 +11,24 @@
   font-family: $ms-ff-3;
   font-size: 1.5em;
 }
+
+.ms-h-h3 {
+  text-align: center;
+  font-family: $ms-ff-2;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  @include desde(640px){
+    font-size: 1.7em;
+  };
+}
+
+.ms-h-h4 {
+  font-family: $ms-ff-3;
+  font-size: 1em;
+  margin-bottom: 10px;
+  @include desde(640px){
+    font-size: 1.2em;
+  };
+}
