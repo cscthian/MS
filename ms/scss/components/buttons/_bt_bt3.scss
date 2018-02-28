@@ -1,0 +1,24 @@
+.ms-bt-b3 {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  min-width: 100%;
+  padding: {
+    left: 1em;
+    right: 1em;
+    top: 8px;
+    bottom: 8px;
+  }
+  border-radius: 5px;
+  &:hover {
+    color: #2d3436;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+  @include desde_hasta(640px,1000px){
+    font-size: 16px;
+  };
+  @include desde(1000px){
+    font-size: 18px;
+  };
+}
