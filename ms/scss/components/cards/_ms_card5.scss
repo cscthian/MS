@@ -1,0 +1,92 @@
+.ms-card5 {
+  position: relative;
+  width: 100%;
+  box-shadow: 1px 1px 10px 2px rgba(189,189,189,1);
+}
+
+.ms-card5__header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: block;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  @include desde(640px){
+    height: 150px;
+  };
+  &__img1 {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &__etiqueta {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: {
+      left: 1em;
+      right: 1em;
+    };
+    border-radius: 20px;
+    font-family: $ms-ff-2;
+    font-size: 12px;
+  }
+  &__img2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    left: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.ms-card5__body {
+  padding: 0.5em;
+  @include desde(640px){
+    padding: 1em;
+  };
+  &__title {
+    display: block;
+    font-family: $ms-ff-1;
+    font-size: 13px;
+    text-align: center;
+    @include desde(640px){
+      font-size: 16px;
+      text-align: left;
+    };
+    &:hover {
+      color: #424242;
+    }
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    font-family: $ms-ff-3;
+    font-size: 13px;
+    margin: 0px;
+    margin-top: 2px;
+    @include hasta(640px){
+      display: none;
+    };
+    &__icon {
+      margin-right: 10px;
+    }
+    &__text {
+
+    }
+  }
+}
+
+.ms-card5__footer {
+  padding: 5px;
+}
