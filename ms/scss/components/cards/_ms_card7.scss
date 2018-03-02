@@ -1,0 +1,53 @@
+.ms-card7 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  box-shadow: 0px 0px 2px 2px rgba(209,209,209,1);
+  &__img {
+    display: none;
+    @include desde_hasta(640px,1000px){
+      display: block;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 1em;
+      &:hover {
+        cursor: pointer;
+      }
+    };
+    @include desde(1000px){
+      display: block;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 1em;
+      &:hover {
+        cursor: pointer;
+      }
+    };
+  }
+  &__content {
+    padding: 10px;
+    font-family: $ms-ff-2;
+    &__title {
+      font-weight: bold;
+      font-size: 20px;
+      @include desde(1000px){
+        font-size: 22px;
+      };
+    }
+    &__text {
+      font-size: 14px;
+      text-align: justify;
+      @include desde_hasta(640px,1000px){
+        font-size: 16px;
+      };
+      @include desde(1000px){
+        font-size: 16px;
+        height:100px;
+      };
+    }
+  }
+}

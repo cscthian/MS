@@ -1,0 +1,16 @@
+.ms-card8 {
+  padding: 1em;
+  &__title {
+    font-family: $ms-ff-3;
+  }
+  &__content {
+    width: 100%;
+    height: 160px;
+    @include desde_hasta(640px,1000px){
+      height: 340px;
+    };
+    @include desde(1000px){
+      height: 290px;
+    };
+  }
+}

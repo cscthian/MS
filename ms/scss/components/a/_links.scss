@@ -9,3 +9,37 @@
     color: black;
   }
 }
+
+.ms-a-a3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  &:hover {
+    color: #2d3436;
+  }
+}
+
+.ms-a-a4 {
+  padding: {
+    top: 5px;
+    bottom: 5px;
+    left: 1em;
+    right: 1em;
+  };
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  @include desde(1000px){
+    font-size: 14px;
+  };
+  &:hover {
+    color: #2d3436;
+    font-weight: normal;
+  }
+}
