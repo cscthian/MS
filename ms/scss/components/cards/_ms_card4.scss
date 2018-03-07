@@ -1,7 +1,8 @@
 .ms-card4 {
   width: 100%;
   padding: 1em;
-  border: solid;
+  border: 1px solid;
+  border-radius: 3px;
   &__header {
     display: flex;
     justify-content: flex-start;

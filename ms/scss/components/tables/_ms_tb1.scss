@@ -1,0 +1,25 @@
+.ms-tb1 {
+  &__head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  &__td1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &__img {
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+      border-radius: 50%;
+    }
+    &__text {
+      font-family: $ms-ff-2;
+      @include hasta(700px){
+        font-size: 12px;
+      };
+    }
+  }
+}

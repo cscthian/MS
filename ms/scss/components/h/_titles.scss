@@ -77,3 +77,14 @@
     font-size: 1.2em;
   };
 }
+
+.ms-h-h7 {
+  font-family: $ms-ff-1;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+  @include desde(640px){
+    font-size: 24px;
+  };
+}

@@ -6,3 +6,62 @@
   font-family: $ms-ff-3;
   font-size: 12px;
 }
+
+.ms-p-p3 {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  align-items: center;
+  font-family: $ms-ff-3;
+  padding: {
+    top: 5px;
+    bottom: 5px;
+    left: 1em;
+    right: 1em;
+  };
+  &__icon {
+    margin-right: 10px;
+  }
+}
+
+.ms-p-p4 {
+  display: flex;
+  font-family: $ms-ff-2;
+  align-items: center;
+  font-size: 12px;
+  border-bottom: 1px solid;
+  border-color: #fafafa;
+  @include desde(640px){
+    font-size: 16px;
+  };
+  &__bold{
+    font-weight: bold;
+    margin-right: 1em;
+    margin-bottom: 0px;
+  }
+  &__text {
+    margin-right: 1em;
+    margin-bottom: 0px;
+  }
+  &__icon {
+    margin-right: 10px;
+  }
+}
+
+.ms-p-p5 {
+  margin-right: 10px;
+  border-radius: 5px;
+  font-family: $ms-ff-3;
+  padding: {
+    left: 1em;
+    right: 1em;
+    top: 2px;
+    bottom: 2px;
+  }
+}
+
+.ms-p-p6 {
+  margin: 0px;
+  font-weight: bold;
+  font-family: $ms-ff-1;
+}

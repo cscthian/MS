@@ -64,6 +64,7 @@ target/
 #ruta de disenio
 
 node_modules/*
+ms/templates/pages/*
 
 *migrations/*
 !__init__.py

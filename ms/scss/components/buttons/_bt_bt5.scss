@@ -1,0 +1,20 @@
+.ms-bt-b5 {
+  width: 100%;
+  text-align: center;
+  &__btn {
+    font-family: $ms-ff-3;
+    width: 100%;
+    padding: {
+      left: 1em;
+      right: 1em;
+      top: 10px;
+      bottom: 10px;
+    };
+    border-radius: 5px;
+    &:hover {
+      cursor: pointer;
+      background-color:rgba(0,0,0,0.5);
+      font-weight: bold;
+    }
+  }
+}
