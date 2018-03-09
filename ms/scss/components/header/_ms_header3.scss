@@ -1,0 +1,51 @@
+.ms-header3 {
+    width: 100%;
+    display: block;
+    box-shadow: 1px 3px 1px 0px rgba(204,204,204,0.37);
+    @include desde(1000px){
+        display: none;
+    };
+    &__head {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: {
+            top: 5px;
+            bottom: 5px;
+            left: 10px;
+            right: 10px;
+        };
+        &__item {
+            font-family: $ms-ff-2;
+            font-size: 14px;
+            font-weight: bold;
+            &:hover {
+                color: #424242;
+            }
+            @include desde(640px){
+                font-size: 16px;
+            };
+        }
+    }
+    &__ctrls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: {
+            top: 5px;
+            bottom: 5px;
+            left: 10px;
+            right: 10px;
+        };
+        &__icon {
+            margin-right: 10px;
+            @include desde(640px){
+                font-size: 20px;
+            };
+        }
+    }
+}
+
+.ms-header3__icon {
+    margin-right: 10px;
+}

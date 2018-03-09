@@ -1,0 +1,43 @@
+.ms-ul-3 {
+    display: none;
+    top: 0px;
+    position: fixed;
+    z-index: 300;
+    background: white;
+    width: 60%;
+    height: 100vh;
+    box-shadow: 1px 1px 10px 0px rgba(201,201,201,1);
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid;
+        &:hover {
+            cursor: pointer;
+        }
+        &__title {
+            font-family: $ms-ff-3;
+        }
+    }
+}
+
+.ms-ul-3__ul {
+    list-style: none;
+    margin: 0px;
+    &__li {
+        &__a {
+            display: block;
+            padding: 14px;
+            font-family: $ms-ff-2;
+            &:hover {
+                background: #bdbdbd;
+                color: #424242;
+            }
+        }
+    }
+}
+
+.ms-ul-3__icon {
+    margin-right: 1em;
+}

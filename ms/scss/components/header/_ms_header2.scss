@@ -1,0 +1,27 @@
+.ms-header2 {
+    display: block;
+    padding: 10px;
+    @include desde(1000px){
+        display: none;
+    };
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo {
+            margin-right: 14px;
+            font-size: 20px;
+        }
+    }
+    &__ctrs {
+        margin-top: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+        &__link {
+            margin-right: 10px;
+        }
+    }
+}
