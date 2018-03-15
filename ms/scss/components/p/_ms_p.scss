@@ -65,3 +65,24 @@
   font-weight: bold;
   font-family: $ms-ff-1;
 }
+
+.ms-p-p7 {
+  display: flex;
+  margin-bottom: 8px;
+  &__1 {
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: $ms-ff-3;
+    font-size: 14px;
+    @include desde(1000px){
+      font-size: 18px;
+    }
+  }
+  &__2 {
+    font-family: $ms-ff-2;
+    font-size: 15px;
+    @include desde(1000px){
+      font-size: 18px;
+    }
+  }
+}
