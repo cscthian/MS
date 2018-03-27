@@ -1,6 +1,10 @@
 .ms-ul-2 {
     margin-top: 1em;
-    margin-right: 1em;
+    height: 90vh;
+    width: 15%;
+    position: fixed;
+    top: 3.5em;
+    left: 5px;
     &__title {
         font-size: 20px;
         font-family: $ms-ff-2;
@@ -20,10 +24,28 @@
                 display: block;
                 padding-top: 14px;
                 padding-bottom: 14px;
-                padding-left: 40px;
+                padding-left: 20px;
                 font-size: 17px;
                 &:hover {
                     color: #212121;
+                    background: #e0e0e0;
+                }
+            }
+        }
+    }
+    &__ul2 {
+        list-style: none;
+        margin: 0px;
+        &__li {
+            font-family: $ms-ff-3;
+            &__a {
+                display: block;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 25px;
+                font-size: 20px;
+                &:hover {
+                    color: gray;
                     background: #e0e0e0;
                 }
             }

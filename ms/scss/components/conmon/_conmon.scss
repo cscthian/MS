@@ -1,3 +1,23 @@
+.padding {
+  padding-left: 1em;
+  padding-right: 1em;
+  @include desde(1000px){
+    padding-left: 3em;
+    padding-right: 3em;
+  };
+}
+
+.margin-top-3x {
+  margin-top: 0.5em;
+  @include desde(1000px){
+    margin-top: 4.5em;
+  };
+}
+
+.margin-bottom-1x {
+  margin-bottom: 1em;
+}
+
 .ms-c {
   text-align: center;
 }

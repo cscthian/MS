@@ -9,6 +9,9 @@
     top: 10px;
     bottom: 10px;
   };
+  position: fixed;
+  z-index: 100;
+  top: 0px;
   @include hasta(1000px){
     display: none;
   };

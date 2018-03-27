@@ -1,0 +1,47 @@
+.ms-card21 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1em;
+    &__logo {
+        width: 25%;
+        height: 25%;
+        border-radius: 50%;
+        border: 1px solid;
+        border-color: gray;
+        @include desde_hasta(640px, 1000px){
+            width: 20%;
+            height: 20%;
+        }
+        @include desde(1000px){
+            width: 15%;
+            height: 15%;
+        }
+    }
+    &__body {
+        padding-left: 5px;
+        width: 75%;
+        height: 100%;
+        text-align: center;
+        font-family: $ms-ff-2;
+        &__title {
+            font-size: 15px;
+            font-weight: bold;
+            @include desde_hasta(640px, 1000px){
+                font-size: 20px;
+            }
+            @include desde(1000px){
+                font-size: 26px;
+            }
+        }
+        &__text {
+            font-size: 14px;
+            @include desde_hasta(640px, 1000px){
+                font-size: 16px;
+            }
+            @include desde(1000px){
+                font-size: 20px;
+            }
+        }
+    }
+}

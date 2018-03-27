@@ -99,3 +99,24 @@
     font-size: 24px;
   };
 }
+
+.ms-h-h9 {
+  font-family: $ms-ff-1;
+  font-size: 14px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+  &:hover {
+    color: grey;
+  }
+  @include desde(640px){
+    font-size: 18px;
+  };
+}
+
+.ms-h-h10 {
+  font-family: $ms-ff-3;
+  font-size: 18px;
+  padding-left: 10px;
+}

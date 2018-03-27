@@ -5,12 +5,18 @@
         width: 100%;
         border-bottom: 1px solid;
         border-bottom-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         &__img {
-            width: 100%;
+            padding: 1em;
+            width: 120px;
             height: 120px;
-            @include desde(1000px){
-                height: 180px;
-            }
+            border-radius: 50%;
+            // @include desde(1000px){
+            //     height: 190px;
+            // }
         }
         &__text {
             font-family: $ms-ff-2;
