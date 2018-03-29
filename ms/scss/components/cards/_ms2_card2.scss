@@ -1,0 +1,86 @@
+.ms2-card2 {
+    box-shadow: 0px 1px 1px 1px rgba(168,168,168,1);
+    position: relative;
+    padding: 5px;
+    @include desde(1000px){
+        padding: 8px;
+    }
+    &__head {
+        &__img {
+            width: 100%;
+            height: 100%;
+        }
+        &__tag {
+            font-size: 10px;
+            font-weight: bold;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            position: absolute;
+            right: 2px;
+            top: 2px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include desde(1000px){
+                width: 35px;
+                height: 35px;
+                font-size: 12px;
+            }
+        }
+    }
+    &__body {
+        font-family: $ms-ff-1;
+        &__title {
+            display: block;
+            text-align: center;
+            font-size: 14px;
+            height: 40px;
+            @include desde(1000px){
+                font-size: 16px;
+            }
+            &:hover {
+                color: inherit;
+                font-weight: bold;
+            }
+        }
+        &__text {
+            margin-top: 5px;
+            display: block;
+            font-size: 12px;
+            font-family: $ms-ff-3;
+            text-decoration: underline;
+            @include desde(1000px){
+                margin-top: 10px;
+                font-size: 14px;
+            }
+            &:hover {
+                color: inherit;
+                font-weight: bold;
+            }
+        }
+    }
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 5px;
+        &__1 {
+            font-size: 12px;
+            font-weight: bold;
+            margin: 0px;
+            @include desde(1000px){
+                font-size: 16px;
+            }
+        }
+        &__2 {
+            font-size: 10px;
+            margin: 0px;
+            text-decoration: line-through;
+            @include desde(1000px){
+                font-size: 14px;
+            }
+        }
+    }
+}
