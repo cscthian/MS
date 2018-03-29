@@ -1,0 +1,100 @@
+.ms2-card3 {
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    box-shadow: 0px 1px 4px 0px rgba(140,140,140,1);
+    &__head {
+        width: 100%;
+        height: 230px;
+        position: relative;
+        &__img {
+            width: 100%;
+            height: 100%;
+        }
+        &__tag {
+            position: absolute;
+            top: 3px;
+            right: 3px;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: $ms-ff-3;
+        }
+        &__date {
+            position: absolute;
+            bottom: 10px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            width: 100%;
+            &__item {
+                font-family: $ms-ff-1;
+                margin: 0px;
+                font-size: 10px;
+                font-weight: bold;
+                text-transform: uppercase;
+                padding: 5px;
+                width: 45px;
+                margin: 2px;
+            }
+        }
+    }
+    &__body {
+        padding: 5px;
+        font-family: $ms-ff-2;
+        &__title {
+            display: block;
+            text-align: center;
+            font-size: 15px;
+            &:hover {
+                color: inherit;
+                font-weight: bold;
+            }
+        }
+        &__text {
+            font-family: $ms-ff-3;
+            font-size: 14px;
+            text-decoration: underline;
+            &:hover {
+                color: inherit;
+            }
+        }
+    }
+    &__footer {
+        padding: 5px;
+        @include desde(1000px){
+            padding: {
+                left: 10px;
+                right: 10px;
+                top: 5px;
+                bottom: 5px;
+            };
+        }
+        &__values {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__1 {
+                font-size: 16px;
+                font-weight: bold;
+                @include desde(1000px){
+                    font-size: 18px;
+                }
+            }
+            &__2 {
+                font-size: 12px;
+                @include desde(1000px){
+                    font-size: 16px;
+                }
+                text-decoration: line-through;
+            }
+        }
+    }
+}
