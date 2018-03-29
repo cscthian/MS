@@ -40,12 +40,15 @@
 .orbit {
     width: 100%;
     padding: 0px;
+    position: relative;
 }
 .orbit-container {
     list-style: none;
     margin: 0px;
+    position: relative;
 }
 
 .orbit-slide {
     display: block;
+    position: relative;
 }

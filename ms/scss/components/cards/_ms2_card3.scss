@@ -65,6 +65,9 @@
             &:hover {
                 color: inherit;
             }
+            @include desde(1000px){
+                padding-left: 5px;
+            }
         }
     }
     &__footer {
