@@ -52,3 +52,33 @@
     display: block;
     position: relative;
 }
+
+.show-s {
+    @include hasta(640px){
+        display: block;
+    }
+    @include desde(640px) {
+        display: none;
+    }
+}
+
+.show-m {
+    @include hasta(640px){
+        display: none;
+    }
+    @include desde_hasta(640px, 1000px){
+        display: block;
+    }
+    @include desde(1000px) {
+        display: none;
+    }
+}
+
+.show-l {
+    @include hasta(1000px){
+        display: none;
+    }
+    @include desde(1000px){
+        display: block;
+    }
+}
