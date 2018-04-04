@@ -1,0 +1,64 @@
+.ms-card23 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    box-shadow: 1px 2px 7px 1px rgba(214,214,214,1);
+    margin-bottom: 1em;
+    padding: 5px;
+    &__head {
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 50%;
+        &__img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            @include desde(1000px) {
+                width: 90px;
+                height: 90px;
+            }
+        }
+        &__text {
+            margin-top: 5px;
+            font-size: 12px;
+            font-family: $ms-ff-3;
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+    }
+    &__body {
+        padding: 10px;
+        text-align: center;
+        &__title {
+            font-size: 12px;
+            font-weight: bold;
+            font-family: $ms-ff-1;
+            @include desde(1000px) {
+                font-size: 15px;
+            }
+            &:hover {
+                opacity: 0.8;
+                cursor: pointer;
+            }
+        }
+        &__text {
+            font-size: 12px;
+            font-family: $ms-ff-2;
+            margin: 0px;
+            @include desde(1000px) {
+                font-size: 14px;
+            }
+        }
+        &__date {
+            margin-top: 1em;
+            font-size: 11px;
+            font-family: $ms-ff-3;
+        }
+    }
+}
