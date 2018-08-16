@@ -1,0 +1,24 @@
+.ms2-bt2{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	&__icon{
+		line-height: 1.5em;
+		display: block;
+		margin: 0.2em;
+
+		&:hover {
+            cursor: pointer;
+        }	
+	}
+	&__button{
+		display: block;
+		line-height: 1.5em;
+		font-size: 0.8em;
+		font-family: cursive;
+		margin: 0.2em;
+		&:hover {
+            cursor: pointer;
+        }
+	}
+}

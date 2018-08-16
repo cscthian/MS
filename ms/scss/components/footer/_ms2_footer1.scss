@@ -1,0 +1,17 @@
+.ms2-footer1{
+	position: fixed;
+	bottom: 5%;
+	right: 2%;
+	&__btn{
+		&__icon{
+			margin: 0;
+			font-size: 3em;
+			&:hover {
+	            cursor: pointer;
+	        }
+		}
+		&__button{
+			
+		}
+	}
+}

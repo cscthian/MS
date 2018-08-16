@@ -34,6 +34,11 @@
 @import "components/buttons/bt_bt4";
 @import "components/buttons/bt_bt5";
 @import "components/buttons/ms2_bt1";
+@import "components/buttons/ms2_bt2";
+@import "components/buttons/ms2_bt3";
+@import "components/buttons/ms2_bt4";
+@import "components/buttons/ms2_bt5";
+
 // *** inputs ***
 @import "components/inputs/ms_in_1";
 @import "components/inputs/ms_in_2";
@@ -72,12 +77,26 @@
 @import "components/cards/ms2_card3";
 @import "components/cards/ms2_card4";
 @import "components/cards/ms2_card5";
+@import "components/cards/ms2_card6";
+@import "components/cards/ms2_card7";
+@import "components/cards/ms2_card8";
+@import "components/cards/ms2_card9";
+@import "components/cards/ms2_card10";
+@import "components/cards/ms2_card11";
 
-// *** Tablas ***
+// *** Tablas ****
 @import "components/tables/ms_tb1";
 
 // *** header ***
 @import "components/header/ms_header1";
 @import "components/header/ms_header2";
 @import "components/header/ms_header3";
+@import "components/header/ms2_header1";
+@import "components/header/ms2_header2";
+
 // *** footer ***
+@import "components/footer/ms2_footer1";
+@import "components/footer/ms2_footer2";
+
+// *** foro ***
+@import "foro/foro"

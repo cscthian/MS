@@ -66,6 +66,8 @@ target/
 node_modules/*
 ms/templates/ds/*
 ms/templates/pi/*
+ms/templates/footer/*
+ms/templates/prueb.html
 
 *migrations/*
 !__init__.py

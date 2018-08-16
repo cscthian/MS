@@ -1,0 +1,31 @@
+.ms2-bt4{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &__button{
+        margin-top: 1em;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0.2em;  
+        &:hover {
+            cursor: pointer;
+            //font-size: 20px;
+            //opacity: 0.5;
+            // background:#505050;
+            // color:#e0e0e0;
+        }        
+        &__icon{
+            margin: 0;
+            font-weight: 400;
+        }
+        &__btn{
+            margin: 0;
+            margin-right: 0.5em;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+        }
+    }
+}

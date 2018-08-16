@@ -15,3 +15,22 @@ $(function(){
         div["0"].style.display = 'none';
     });
   });
+
+// funcion para el boton ir arriba
+$(document).ready(function(){
+ 
+  $('.ms2-footer1__btn__icon').click(function(){
+    $('body, html').animate({
+      scrollTop: '0px'
+    }, 300);
+  });
+ 
+  $(window).scroll(function(){
+    if( $(this).scrollTop() > 0 ){
+      $('.ms2-footer1__btn__icon').slideDown(300);
+    } else {
+      $('.ms2-footer1__btn__icon').slideUp(300);
+    }
+  });
+ 
+});

@@ -1,0 +1,48 @@
+.ms2-card11{
+    border: 1px solid #1fa345;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    padding: 1em;
+    margin-bottom: 1em;
+    &:hover {
+        cursor: pointer;
+        background:#f5f5f5;
+    }
+    //height: 200px;
+    &__left{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__icon{
+            font-size: 2.5em;
+            margin: {
+                right: 0.2em;
+                top: 0.2em;
+            };
+        }
+    }
+    &__right{
+        width:80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        &__title{
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 25px;
+            font-weight: 700;
+            line-height: 1em;
+        }
+        &__content{
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            line-height: 1.2em;
+        }
+    }
+}
